@@ -9,12 +9,10 @@ class RichWord:
 
     @property
     def corretta(self):
-        print("getter of parola called" )
         return self._corretta
 
     @corretta.setter
     def corretta(self, boolValue):
-        print("setter of parola called" )
         self._corretta = boolValue
 
     def __str__(self):
